@@ -11,3 +11,7 @@ type AccountController struct {
 func (c *AccountController) Login() {
 	c.TplName = "login.tpl"
 }
+
+func (c *AccountController) Create() {
+	c.TplName = "createAccount.tpl"
+}
